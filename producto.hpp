@@ -6,7 +6,7 @@ using namespace std;
 class producto{
 	
 	private: 
-	int id; 
+	string id; 
 	string nombre; 
 	string categoria; 
 	int unidades; 
@@ -15,11 +15,11 @@ class producto{
 	public:
 		
 		producto(); 
-		producto(int,string,string,int,double);
+		producto(string,string,string,int,double);
 		~producto(); 
 	
-	   void setid(int); 
-	   int getid();
+	   void setid(string); 
+	   string getid();
 	   
 	   void setnombre(string); 
 	   string getnombre(); 

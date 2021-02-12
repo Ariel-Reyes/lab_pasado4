@@ -5,7 +5,7 @@ using namespace std;
 	producto::producto(){
 		
 	} 
-		producto::producto(int id,string nombre,string categoria ,int unidades,double precio){
+		producto::producto(string id,string nombre,string categoria ,int unidades,double precio){
 			this->categoria=categoria; 
 			this->id = id; 
 			this->nombre = nombre; 
@@ -17,10 +17,10 @@ using namespace std;
 			
 		} 
 	
-	   void producto::setid(int id){
+	   void producto::setid(string id){
 	   	this->id = id; 
 	   } 
-	   int producto::getid(){
+	   string producto::getid(){
 	   	return this->id; 
 	   }
 	   
