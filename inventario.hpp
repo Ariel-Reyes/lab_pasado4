@@ -25,6 +25,8 @@ class inventario{
 		 vector<producto*> retornoProducto();
     void eliminarP(string id);
 	
+	vector<string> retornoCategoria(); 
+		
 	
  
     

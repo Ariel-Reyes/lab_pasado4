@@ -11,6 +11,14 @@ inventario::inventario(){
     	
 	};
 	
+	void inventario::agregarcategorias(string p){
+		categoria.push_back(p);
+	}
+		vector<string> inventario::retornoCategoria(){
+			return this->categoria; 
+		}; 
+
+	
 		 vector<producto*> inventario::retornoProducto(){
 	 	return this->produ; 
 	 };

@@ -178,8 +178,15 @@ int main() {
 			
 			
 			
+			a->agregarcategorias("Cloro");
+			a->agregarcategorias("ACE");
+		    a->agregarcategorias("pepsi cola");
+			a->agregarcategorias("coca cola"); 
+			a->agregarcategorias("Cereal");
 			
-			
+		
+
+						
 				
 				break;
 			}
